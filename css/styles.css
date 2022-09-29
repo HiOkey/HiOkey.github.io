@@ -59,7 +59,7 @@ a, a:hover {
 }
 
 body {
-  font-family: "Mulish", sans-serif;
+  font-family: 'League Spartan', sans-serif;
   font-weight: 300;
   color: #7D7987;
 }
@@ -181,7 +181,7 @@ body {
   border-color: #1F1534;
 }
 .menu__link:hover {
-  background: rgba(31, 21, 52, 0.05);
+  background: #645CAA;
 }
 .menu__link:first-child {
   border-color: #1F1534;
@@ -323,11 +323,11 @@ body {
 .cover__button {
   border: 2px solid transparent;
   color: #fff;
-  background: #458FF6;
+  background: #645CAA;
 }
 .cover__button:hover {
-  border: 2px solid #458FF6;
-  color: #458FF6;
+  border: 2px solid #645CAA;
+  color: #645CAA;
   background: #fff;
 }
 .cover__image {
@@ -389,7 +389,7 @@ body {
 }
 
 .services {
-  background: url(../images/services/bubble.png) no-repeat left top;
+  background: url(../images/services/bubble_2.jpg) no-repeat left top;
 }
 .services__container {
   display: -webkit-box;
@@ -520,8 +520,8 @@ body {
 }
 
 .border-button {
-  border: 2px solid #458FF6;
-  color: #458FF6;
+  border: 2px solid #645CAA;
+  color: #645CAA;
   background: #fff;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
@@ -530,7 +530,7 @@ body {
 .border-button:hover {
   border: 2px solid transparent;
   color: #fff;
-  background: #458FF6;
+  background: #645CAA;
 }
 
 /***********ADVERTISEMENT*****************/
@@ -655,7 +655,7 @@ body {
   display: inline-block;
   width: 11px;
   height: 16px;
-  background: url(../images/ads/arrow.svg) no-repeat;
+  /* background: url(../images/ads/arrow.svg) no-repeat; */
   margin: 0px 0 0 15px;
   -webkit-transform: translateY(2px);
           transform: translateY(2px);
@@ -1094,7 +1094,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding: 113px 0 109px;
-  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  background: linear-gradient(183.41deg, #A084CA -8.57%, #645CAA 82.96%);
   color: #fff;
   font-weight: 300;
 }
