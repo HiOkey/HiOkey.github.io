@@ -392,6 +392,23 @@ float: right;
 }
 .cover__people {
   max-width: 100%;
+  height: 350px;
+}
+
+@media screen and (max-width: 1319px) {
+  .cover__people {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1109px) {
+  .cover__people {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 899px) {
+  .cover__image {
+    height: 250px;
+  }
 }
 
 /***OUR SERVICES*********************/
