@@ -59,7 +59,7 @@ a, a:hover {
 }
 
 body {
-  font-family: 'League Spartan', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 300;
   color: #7D7987;
 }
@@ -77,6 +77,40 @@ body {
   position: relative;
 }
 
+/*TOPNAV*************************/
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+background-color: #04AA6D;
+color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+float: right;
+}
+
 /*HEADER*************************/
 .menu__sublist, .header__h-container {
   display: -webkit-box;
@@ -88,7 +122,7 @@ body {
 }
 
 .header {
-  padding: 56px 0;
+  padding: 16px 0;
   position: relative;
   z-index: 1;
 }
@@ -215,6 +249,7 @@ body {
 
 .cover {
   padding: 120px 0 235px;
+  background: linear-gradient(183.41deg, #A084CA -8.57%, #645CAA 82.96%);
 }
 @media screen and (max-width: 1099px) {
   .cover {
@@ -277,7 +312,7 @@ body {
   }
 }
 .cover__text-block {
-  width: 445px;
+  width: 800px;
 }
 @media screen and (max-width: 899px) {
   .cover__text-block {
@@ -293,9 +328,9 @@ body {
 }
 .cover__title {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 68px;
   line-height: 116.6666666667%;
-  color: #000;
+  color: #fff;
   margin: 0 0 25px 0;
 }
 @media screen and (max-width: 899px) {
@@ -314,6 +349,7 @@ body {
   font-size: 21px;
   line-height: 152.380952381%;
   margin: 0 0 45px 0;
+  color: #fff;
 }
 @media screen and (max-width: 899px) {
   .cover__text {
@@ -322,8 +358,8 @@ body {
 }
 .cover__button {
   border: 2px solid transparent;
-  color: #fff;
-  background: #645CAA;
+  color: #645CAA;
+  background: #fff;
 }
 .cover__button:hover {
   border: 2px solid #645CAA;
@@ -333,8 +369,8 @@ body {
 .cover__image {
   width: 56.9433032046%;
   position: absolute;
-  right: -31px;
-  top: -106px;
+  right: -140px;
+  top: 0px;
 }
 @media screen and (max-width: 1319px) {
   .cover__image {
