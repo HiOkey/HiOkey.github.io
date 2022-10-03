@@ -14,6 +14,8 @@
 	</head>
 	
 	<body>
+		<div id="cover-spin"></div>
+		
 		<div class="topnav">
 			<div class="topnav-right" style="padding-right: 8rem;">
 				<a href="tel:+19093245422"><i class="fa fa-fw fa-phone"></i>1-909-324-5422</a>
@@ -48,7 +50,9 @@
 					<div class="cover__text-block">
 						<h1 class="cover__title">Transform your Healthcare<br>Experience</h1>
 						<div class="cover__text">HiOkey provides progressive,and affordable healthcare,<br>accessible on mobile and online for everyone</div>
-						<button class="cover__button">Consult today</button>
+						<input type="text" id="question" class="cover__inp" placeholder="Ask your Query"><br><br>
+						<input type="email" id="email" class="cover__inp" placeholder="Your Email*"><br><br>
+						<button onclick="sendMail()" class="cover__button">Consult today</button>
 					</div>
 					<div class="cover__image">
 						<img class="cover__people" src="images/cover/people_5-trimmy.png" alt="Peoples">
@@ -294,5 +298,6 @@
 	<script src="js/menu-visibility.js"></script>
 	<script src="js/menu-changing-option.js"></script>
 	<script src="js/slider-comments.js"></script>
+	<script src="js/index.js"></script>
 	</body>
 </html>
